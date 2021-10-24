@@ -117,7 +117,7 @@ class SearchBar extends React.Component {
         var autoComplete = new google.maps.places.Autocomplete(input);
     }
     </script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5JZ306U77vFRz4E8UureGZgkux0UMRvc&libraries=places&callback=activatePlacesSearch"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places&callback=activatePlacesSearch"></script>
   </div>
   <div className="SearchBar-submit">
     <a onClick = {this.handleSearch}>Let's Go</a>
